@@ -3,4 +3,10 @@
     <string name="fall_in_love_with_ncoffee_in_blissful_delight">Fall in Love with\nCoffee in Blissful Delight!</string>
     <string name="welcome_to_our_cozy_coffee_corner_where_nevery_cup_is_a_delightful_for_you">Welcome to our cozy coffee corner, where\nevery cup is a delightful for you.</string>
     <string name="get_started">Get Started</string>
+    <string name="caffe_mocha">Caffe Mocha</string>
+    <string name="ice_hot">Ice/Hot</string>
+    <string name="read_more">Read More</string>
+    <string name="description">A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo..</string>
+    <string name="size">Size</string>
+    <string name="buy_now">Buy Now</string>
 </resources>

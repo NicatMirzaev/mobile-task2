@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context=".Onboarding">
 
     <!-- Background Image -->
     <ImageView
@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/welcome_to_our_cozy_coffee_corner_where_nevery_cup_is_a_delightful_for_you"
-            android:textColor="#A2A2A2"
+            android:textColor="@color/gray"
             android:textSize="14sp"
             android:fontFamily="@font/sora_regular"
             android:gravity="center"
