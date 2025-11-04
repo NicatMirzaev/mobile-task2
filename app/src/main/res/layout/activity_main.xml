@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/coffeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffee_bg" />
+
+    <!-- Overlay to darken image -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        android:layout_marginBottom="48dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fall_in_love_with_ncoffee_in_blissful_delight"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:fontFamily="@font/sora_bold"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_our_cozy_coffee_corner_where_nevery_cup_is_a_delightful_for_you"
+            android:textColor="#A2A2A2"
+            android:textSize="14sp"
+            android:fontFamily="@font/sora_regular"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/getStartedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/get_started"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:fontFamily="@font/sora_semibold"
+            android:background="@drawable/rounded_button" />
+    </LinearLayout>
+
+</FrameLayout>
